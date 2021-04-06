@@ -1,0 +1,95 @@
+.text-section
+{
+	background-color: silver;
+
+	width: 70%;
+	padding: 5px 0;
+	border-radius: 20px;
+	margin: auto;
+}
+#original-text 
+{
+	padding-top: 7px;
+	font-size: 20px;
+}
+.text-area-div
+{
+	text-align: center;
+	width: 100%;
+}
+#text-area
+{
+	border:2px solid black;
+	text-align: center;
+	border-radius: 20px;
+	outline: none;
+	width: 100%;
+}
+#minute,#second,#m-second
+{
+	font-size: 30px;
+	color: red;
+	margin: 5px;
+}
+
+/*button
+{
+	background-color: orange;
+	color: black;
+	padding: 5px 20px;
+	border-radius: 10px;
+	border:none;
+	text-decoration: none;
+	box-shadow: 0 0 10px black;
+	font-size: 20px;
+}*/
+#button-rest button
+{
+	outline: none;
+	background-color: orange;
+	color: black;
+	padding: 5px 20px;
+	border-radius: 10px;
+	border:none;
+	text-decoration: none;
+	box-shadow: 0 0 10px black;
+	font-size: 20px;
+}
+.cong-div
+{
+	background-color: limegreen;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 50px;
+	margin: 0px 200px;
+	box-shadow: 0 0 10px black;
+	display: none;
+
+}
+
+.card-footer
+{
+	line-height: 10px;
+}
+
+/*@media (max-width: 850px)
+		{
+			#text-area
+			{
+				flex-direction: column;
+				height: 50%;
+			}
+			#original-text
+			{
+
+			}
+
+		}*/
+		/*@media (min-width: 500px) and (max-width: 720px)
+		{
+			#text-area
+			{
+				flex-direction: column;
+			}
+		}*/
